@@ -2,13 +2,13 @@
 
 This are URL pattenns for retreiving various data,
 To rereive movies based on title:
-    path('search/title/<title>/'),
+    http://127.0.0.1:8000/api/search/title/<title name>/
     
 To rereive movies based on ratings:
-    path('search/rating/<rating>/'),
+     http://127.0.0.1:8000/api/search/rating/<ratings number>/
     
 To rereive movies based on id:
-    path('search/id/<id>/'),
+     http://127.0.0.1:8000/api/search/id/<id number>/
     
 To rereive movies based on genres:
-    path('search/genres/<genres>/')
+    http://127.0.0.1:8000/api/search/genres/<genres name>/
